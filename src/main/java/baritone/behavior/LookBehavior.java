@@ -65,8 +65,8 @@ public final class LookBehavior extends Behavior implements ILookBehavior {
     private static Vec3 Destiny;
     private static Vec3 Center;
 
-    //private final Deque<Float> smoothYawBuffer;
-    //private final Deque<Float> smoothPitchBuffer;
+    private final Deque<Float> smoothYawBuffer;
+    private final Deque<Float> smoothPitchBuffer;
 
     public LookBehavior(Baritone baritone) {
         super(baritone);
